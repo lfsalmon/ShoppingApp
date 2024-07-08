@@ -1,0 +1,23 @@
+
+
+<mat-card class="row" appearance="outlined">
+    <div  class="name">
+        {{Item.name}}-{{Item.code}}
+    </div>
+    <div *ngIf="IsShoppingcar" class="cost">
+        {{Count  }}
+    </div>
+    <div  class="cost">
+        {{Item.cost | currency  }}
+    </div>
+
+    <div   *ngIf="IsShoppingcar" class="cost">
+        {{Count * Item.cost| currency  }}
+    </div>
+    
+    
+    <div *ngIf="!IsShoppingcar" class="actions">
+        <button mat-button (click)="Add(Item)"><mat-icon >add</mat-icon></button>
+        <button mat-button (click)="Delete(Item)" ><mat-icon >delete</mat-icon></button>
+    </div>
+</mat-card>

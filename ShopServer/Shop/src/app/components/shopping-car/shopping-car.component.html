@@ -1,0 +1,6 @@
+<div class="container-items">
+    <app-item-detail
+    (AddItem)="OnAdd($event)"  (deleteItem)="OnDelete($event)"  *ngFor="let item of items" [Item]="item.item"  [Count]="item.count"   [IsShoppingcar]="true">
+        
+    </app-item-detail>
+</div>

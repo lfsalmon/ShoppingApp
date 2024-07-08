@@ -1,0 +1,9 @@
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Entity\bin\Debug\netcoreapp3.1\ShopServer.Entity.deps.json
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Entity\bin\Debug\netcoreapp3.1\ShopServer.Entity.dll
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Entity\bin\Debug\netcoreapp3.1\ShopServer.Entity.pdb
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Entity\obj\Debug\netcoreapp3.1\ShopServer.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Entity\obj\Debug\netcoreapp3.1\ShopServer.Entity.AssemblyInfoInputs.cache
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Entity\obj\Debug\netcoreapp3.1\ShopServer.Entity.AssemblyInfo.cs
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Entity\obj\Debug\netcoreapp3.1\ShopServer.Entity.csproj.CoreCompileInputs.cache
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Entity\obj\Debug\netcoreapp3.1\ShopServer.Entity.dll
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Entity\obj\Debug\netcoreapp3.1\ShopServer.Entity.pdb

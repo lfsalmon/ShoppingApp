@@ -1,0 +1,82 @@
+
+  <div  #container class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form [formGroup]="regsiterForm" (ngSubmit)="onSigupSubmit()">
+        <h1>Registrar Cuenta</h1>
+        <mat-form-field>
+          <mat-label>Username</mat-label>
+          <input matInput formControlName="username" required>
+        </mat-form-field>
+        
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input matInput formControlName="email" required>
+        </mat-form-field>
+       
+        <mat-form-field>
+          <mat-label>Tipo de usuario</mat-label>
+          <mat-select formControlName="role" required>
+            <mat-option *ngFor="let role of userRoles" [value]="role">
+              {{ getRoleName(role) }} ({{ role }})
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Nombre</mat-label>
+          <input matInput formControlName="name" required>
+        </mat-form-field>
+
+        <mat-form-field *ngIf="isCustomer">
+          <mat-label>Apellidos</mat-label>
+          <input matInput formControlName="lastname">
+        </mat-form-field>
+        
+  
+        <mat-form-field>
+          <mat-label>Password</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" formControlName="password" required>
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide_siginup ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+        <button mat-raised-button color="primary" type="submit" [disabled]="regsiterForm.invalid" >Registrar</button>
+      </form>
+    </div>
+  
+    <div class="form-container sign-in-container">
+      <form [formGroup]="loginForm" (ngSubmit)="onLoginSubmit()">
+        <h1>Iniciar Sesion</h1>
+        <mat-form-field>
+          <mat-label>Username</mat-label>
+          <input matInput formControlName="username" required>
+        </mat-form-field>
+    
+        <mat-form-field>
+          <mat-label>Password</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" formControlName="password" required>
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+    
+        <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">Login</button>
+      </form>
+    </div>
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>Bienvenido</h1>
+          <p>Inicia sesion para ver una lista de articulos disponibles</p>
+          <button  mat-raised-button  (click)="OnLoginClick()" class="ghost button-change" id="signIn">Sign In</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1>Bienvenido</h1>
+          <p>Registrate con nosotros para encontrar una variedad de articulos </p>
+          <button mat-raised-button (click)="OnSigniupClick()" class="ghost button-change" id="signUp">Registro</button>
+        </div>
+      </div>
+    </div>
+     
+  </div>
+  

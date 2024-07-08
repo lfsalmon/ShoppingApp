@@ -1,0 +1,15 @@
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\bin\Debug\netcoreapp3.1\ShopServer.Business.deps.json
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\bin\Debug\netcoreapp3.1\ShopServer.Business.dll
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\bin\Debug\netcoreapp3.1\ShopServer.Business.pdb
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\bin\Debug\netcoreapp3.1\ShopServer.Data.dll
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\bin\Debug\netcoreapp3.1\ShopServer.Entity.dll
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\bin\Debug\netcoreapp3.1\ShopServer.Data.pdb
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\bin\Debug\netcoreapp3.1\ShopServer.Entity.pdb
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\obj\Debug\netcoreapp3.1\ShopServer.Business.csproj.AssemblyReference.cache
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\obj\Debug\netcoreapp3.1\ShopServer.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\obj\Debug\netcoreapp3.1\ShopServer.Business.AssemblyInfoInputs.cache
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\obj\Debug\netcoreapp3.1\ShopServer.Business.AssemblyInfo.cs
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\obj\Debug\netcoreapp3.1\ShopServer.Business.csproj.CoreCompileInputs.cache
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\obj\Debug\netcoreapp3.1\ShopServ.0BBF68B0.Up2Date
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\obj\Debug\netcoreapp3.1\ShopServer.Business.dll
+C:\Documents\Personal\Proyects\MLG\ShopServer\ShopServer.Business\obj\Debug\netcoreapp3.1\ShopServer.Business.pdb

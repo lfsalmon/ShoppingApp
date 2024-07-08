@@ -1,0 +1,6 @@
+<div class="container-items">
+    <app-item-detail
+    (AddItem)="OnAdd($event)"  (deleteItem)="OnDelete($event)"  *ngFor="let item of Items" [Item]="item">
+        
+    </app-item-detail>
+</div>

@@ -1,0 +1,15 @@
+
+<mat-toolbar class="header" color="primary">
+    <button mat-button routerLink="/all-item-list" >Shop App</button>
+    <div *ngIf="userloginOn" class="menu">
+        <a mat-button *ngFor="let item of menuItems" routerLink="{{item.route}}">{{item.label}}</a>        
+    </div>
+    <span class="example-spacer"></span>
+    <div  class="shoppingcart">
+        <button *ngIf="userRole == CustomerRole" mat-button routerLink="shopping-car"><mat-icon matBadge="0">shopping_cart</mat-icon></button>
+        <button (click)="logout()" mat-button><mat-icon>logout</mat-icon></button>
+    </div>
+
+
+</mat-toolbar>
+
